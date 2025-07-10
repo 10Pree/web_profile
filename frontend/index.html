@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/public/img/ChatGPT Image 11 พ.ค. 2568 19_37_50.png" />
+  <link href="./node_modules/aos/dist/aos.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="/src/style.css" rel="stylesheet" />
   <title>Nonthanan Simpree</title>
@@ -27,8 +28,8 @@
 
     <main>
       <section class="flex justify-center items-center pt-40">
-        <div class="w-10/12 flex justify-between items-center">
-          <div class="w-[630px]">
+        <div class="w-10/12 flex justify-around items-center">
+          <div data-aos="fade-up" class="w-[630px]">
             <h1 class="text-7xl">Hello I’m</h1>
             <h1 class="text-7xl">NONTHANAN SIMPREE</h1>
             <span class="text-4xl">Full Stack Developer</span>
@@ -38,16 +39,16 @@
               to deliver exceptional digital experiences.
             </p>
           </div>
-          <div class="bg-[#9CC5A7] rounded-b-3xl mr-28">
+          <div data-aos="fade-up" data-aos-duration="1500" class="bg-[#9CC5A7] rounded-b-3xl">
             <img class="w-[394px] rounded-b-3xl drop-shadow-2xl"
               src="/public/img/348359514_114283415017785_1901267193675504583_n-removebg-preview (1).png" alt="" />
           </div>
         </div>
       </section>
-      <section class="flex justify-center items-center bg-amber-400 pt-30">
-        <div class="flex flex-col justify-between items-center">
+      <section data-aos-duration="1500" class="flex justify-center items-center pt-50">
+        <div data-aos="zoom-in-up" class="flex flex-col justify-between items-center">
           <h1 class="text-6xl">What I do</h1>
-          <div class="flex justify-center items-center gap-40">
+          <div class="flex justify-center items-center gap-40 mt-16">
             <div class="w-[630px] flex flex-col gap-3">
               <h2 class="text-4xl">Name work 1</h2>
               <span class="text-2xl">detail :</span>
@@ -67,44 +68,56 @@
                 <img src="./public/icon/icons8-html5-96.png" alt="">
                 <span>HTML5</span>
                 <div class="grid grid-cols-2">
-                    <div>
-                      <img src="./public/icon/icons8-html5-96.png" alt="">
-                      <span>HTML5</span>
-                    </div>
-                    <div>
-                      <img src="./public/icon/icons8-html5-96.png" alt="">
-                      <span>HTML5</span>
-                    </div>
+                  <div>
+                    <img src="./public/icon/icons8-html5-96.png" alt="">
+                    <span>HTML5</span>
+                  </div>
+                  <div>
+                    <img src="./public/icon/icons8-html5-96.png" alt="">
+                    <span>HTML5</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
       </section>
-      <!-- <section>
-        <h1>Skills</h1>
-        <div>
-          <div>
-            <span>Skill 1</span>
-          </div>
-          <div>
-            <span>Skill 2</span>
-          </div>
-          <div>
-            <span>Skill 3</span>
-          </div>
-          <div>
-            <span>Skill 4</span>
-          </div>
-          <div>
-            <span>Skill 5</span>
-          </div>
-          <div>
-            <span>Skill 6</span>
+      <section class="text-center mt-50">
+        <h1 class="text-6xl">Skills</h1>
+        <div class="flex justify-center">
+          <div class="grid grid-cols-3 gap-16 text-center mt-16">
+            <div>
+              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <span>Skill 1</span>
+            </div>
+            <div>
+              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <span>Skill 2</span>
+            </div>
+            <div>
+              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <span>Skill 3</span>
+            </div>
+            <div>
+              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <span>Skill 4</span>
+            </div>
+            <div>
+              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <span>Skill 5</span>
+            </div>
+            <div>
+              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <span>Skill 6</span>
+            </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
   </div>
+  <script src="./node_modules/aos/dist/aos.js"></script>
 </body>
+<script>
+  AOS.init();
+</script>
 
 </html>

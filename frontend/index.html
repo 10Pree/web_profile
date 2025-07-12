@@ -3,19 +3,18 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/public/img/ChatGPT Image 11 พ.ค. 2568 19_37_50.png" />
+  <link rel="icon" type="image/svg+xml" href="/img/ChatGPT Image 11 พ.ค. 2568 19_37_50.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/node_modules/aos/dist/aos.css" rel="stylesheet">
   <link href="/src/style.css" rel="stylesheet" />
   <title>Nonthanan Simpree</title>
 </head>
 
 <body class="h-screen w-screen">
-  <div class="">
     <header class="flex justify-center items-center p-3">
       <nav class="flex justify-between items-center px-14 border-3 w-10/12 rounded-3xl p-1">
         <div>
-          <img class="w-12 rounded-full animate-spin" src="/public/img/ChatGPT Image 11 พ.ค. 2568 19_37_50.png"
-            alt="" />
+          <img class="w-12 rounded-full animate-spin" src="/img/ChatGPT Image 11 พ.ค. 2568 19_37_50.png" alt="" />
         </div>
         <ul class="flex gap-4">
           <li class="hover:text-2xl hover:animate-bounce">Home</li>
@@ -26,9 +25,9 @@
     </header>
 
     <main>
-      <section class="flex justify-center items-center pt-40">
+      <section data-aos="fade-up" data-aos-duration="1500"  class="h-screen flex justify-center items-center">
         <div class="w-10/12 flex justify-around items-center">
-          <div data-aos="fade-up" class="w-[630px]">
+          <div class="w-[630px]">
             <h1 class="text-7xl">Hello I’m</h1>
             <h1 class="text-7xl">NONTHANAN SIMPREE</h1>
             <span class="text-4xl">Full Stack Developer</span>
@@ -38,16 +37,18 @@
               to deliver exceptional digital experiences.
             </p>
           </div>
-          <div data-aos="fade-up" data-aos-duration="1500" class="bg-[#9CC5A7] rounded-b-3xl">
-            <img class="w-[394px] rounded-b-3xl drop-shadow-2xl"
-              src="/public/img/348359514_114283415017785_1901267193675504583_n-removebg-preview (1).png" alt="" />
+          <div  class="bg-[#9CC5A7] rounded-b-3xl">
+            <!-- <img class="w-[394px] rounded-b-3xl drop-shadow-2xl" src="/img/348359514_114283415017785_1901267193675504583_n-removebg-preview (1).png" alt="" /> -->
+            <video class="rounded-2xl" width="400" height="240" autoplay muted loop playsinline>
+              <source  src="/video/Har_400358716030455812.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </section>
-      <section data-aos="zoom-in-up" data-aos-duration="1500" class="flex justify-center items-center pt-50">
-        <div class="flex flex-col justify-between items-center">
+      <section class="h-screen flex justify-center items-center">
+        <div data-aos="zoom-in-up" data-aos-duration="1500" class="flex flex-col justify-between items-center">
           <h1 class="text-6xl">What I do</h1>
-          <div class="swiper h-[500px]">
+          <div class="swiper h-[500px] w-[1200px]">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="flex justify-center items-center gap-40 mt-16">
@@ -67,15 +68,15 @@
                   <div class="mb-[-100px]">
                     <h3 class="text-3xl text-center">Tools</h3>
                     <div class="flex flex-col justify-center items-center text-center">
-                      <img src="./public/icon/icons8-html5-96.png" alt="">
+                      <img src="/icon/icons8-html5-96.png" alt="">
                       <span>HTML5</span>
                       <div class="grid grid-cols-2">
                         <div>
-                          <img src="./public/icon/icons8-html5-96.png" alt="">
+                          <img src="/icon/icons8-html5-96.png" alt="">
                           <span>HTML5</span>
                         </div>
                         <div>
-                          <img src="./public/icon/icons8-html5-96.png" alt="">
+                          <img src="/icon/icons8-html5-96.png" alt="">
                           <span>HTML5</span>
                         </div>
                       </div>
@@ -101,15 +102,15 @@
                   <div class="mb-[-100px]">
                     <h3 class="text-3xl text-center">Tools</h3>
                     <div class="flex flex-col justify-center items-center text-center">
-                      <img src="./public/icon/icons8-html5-96.png" alt="">
+                      <img src="/icon/icons8-html5-96.png" alt="">
                       <span>HTML5</span>
                       <div class="grid grid-cols-2">
                         <div>
-                          <img src="./public/icon/icons8-html5-96.png" alt="">
+                          <img src="/icon/icons8-html5-96.png" alt="">
                           <span>HTML5</span>
                         </div>
                         <div>
-                          <img src="./public/icon/icons8-html5-96.png" alt="">
+                          <img src="/icon/icons8-html5-96.png" alt="">
                           <span>HTML5</span>
                         </div>
                       </div>
@@ -135,15 +136,15 @@
                   <div class="mb-[-100px]">
                     <h3 class="text-3xl text-center">Tools</h3>
                     <div class="flex flex-col justify-center items-center text-center">
-                      <img src="./public/icon/icons8-html5-96.png" alt="">
+                      <img src="/icon/icons8-html5-96.png" alt="">
                       <span>HTML5</span>
                       <div class="grid grid-cols-2">
                         <div>
-                          <img src="./public/icon/icons8-html5-96.png" alt="">
+                          <img src="/icon/icons8-html5-96.png" alt="">
                           <span>HTML5</span>
                         </div>
                         <div>
-                          <img src="./public/icon/icons8-html5-96.png" alt="">
+                          <img src="/icon/icons8-html5-96.png" alt="">
                           <span>HTML5</span>
                         </div>
                       </div>
@@ -156,42 +157,44 @@
             <div class="swiper-pagination"></div>
         </div>
       </section>
-      <section class="text-center mt-50">
+      <section class="h-screen flex flex-col justify-center items-center text-center">
         <h1 class="text-6xl">Skills</h1>
         <div class="flex justify-center">
           <div class="grid grid-cols-3 gap-16 text-center mt-16">
             <div>
-              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <img src="/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
               <span>Skill 1</span>
             </div>
             <div>
-              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <img src="/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
               <span>Skill 2</span>
             </div>
             <div>
-              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <img src="/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
               <span>Skill 3</span>
             </div>
             <div>
-              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <img src="/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
               <span>Skill 4</span>
             </div>
             <div>
-              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <img src="/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
               <span>Skill 5</span>
             </div>
             <div>
-              <img src="./public/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
+              <img src="/icon/icons8-javascript-ios-17-outlined-96.png" alt="">
               <span>Skill 6</span>
             </div>
           </div>
         </div>
       </section>
     </main>
-  </div>
-  <script src="./node_modules/aos/dist/aos.js"></script>
-  <script src="./src/js/aos.js" type="module"></script>
-  <script src="./src/js/swiper.js" type="module"></script>
+
+    <footer class="w-full h-[300px] bg-gray-200 mt-50">
+      
+    </footer>
+  <script src="/src/js/aos.js" type="module"></script>
+  <script src="/src/js/swiper.js" type="module"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-// import Swiper พร้อม bundle ทั้งหมด (รวม pagination, navigation ฯลฯ)
+// import Swiper 
 import Swiper from 'swiper/bundle';
 
 // import CSS

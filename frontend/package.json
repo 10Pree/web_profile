@@ -16,6 +16,7 @@
     "aos": "^2.3.4",
     "sweetalert2": "^11.22.2",
     "swiper": "^11.2.10",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "typeit": "^8.8.7"
   }
 }

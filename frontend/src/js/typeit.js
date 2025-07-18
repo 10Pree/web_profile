@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
     .type("N" , {delay: 500 })
     .move(8, { delay: 100 })
     .type(" " , { delay: 100 })
-    .type("Simpree" , { delay: 500 })
+    .type("simpree" , { delay: 500 })
+    .move(-6, {delay: 100 })
+    .delete(1)
+    .type("S", { delay: 500 })
+    .move(6, { delay: 100 })
     .go();
   });

@@ -28,5 +28,10 @@
 .swiper-pagination-bullet {
   background-color: black !important;
 }
+.swal-popup{
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+}
 
 

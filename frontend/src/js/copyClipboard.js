@@ -4,20 +4,27 @@ const CopyToClipboard = async (text) => {
     try {
         await navigator.clipboard.writeText(text);
         await Swal.fire({
+            position: 'top-end',
             title: 'Copy success',
             text: 'Email copied successfully',
             icon: 'success',
             showConfirmButton: false,
-            timer: 1000
+            timer: 1500,
+            customClass: {
+                popup: 'swal-popup',
+            }
         })
     } catch (err) {
         console.log(err)
         await Swal.fire({
+            position: 'top-end',
             title: 'Copy Failed',
             text: 'Email copied Failed',
             icon: 'error',
-            showConfirmButton: false,
-            timer: 1000
+            timer: 1500,
+            customClass: {
+                popup: 'swal-popup',
+            }
         })
     }
 }
